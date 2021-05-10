@@ -1,0 +1,187 @@
+<!-- <app-nav></app-nav> -->
+
+
+
+<div class="topOrange">
+    <div class="topOrangeText1">
+      Students From Class 5th to 11th.Here is your Dream Opportunity!
+    </div>
+    <div class="topOrangeText2">Play, Learn & Build Your Own Future</div>
+    </div>
+
+    <div class="sectopBlue">
+
+      <div>
+        <img [src]="logo" alt="centered image"/>
+
+      </div>
+
+      <div class="selectschoolText">Select School</div>
+      <div [formGroup]="form" font="Proxima Nova">
+      <!-- <div class="form-group"> -->
+        <select formControlName="school" class="form-control">
+            <option [ngValue]="null">School Name</option>
+            <!-- <option disabled>Select School</option> -->
+
+            <option *ngFor="let school of schools" [ngValue]="school">{{school.name}}</option>
+        </select>
+
+        <div *ngIf="f.school.touched && f.school.invalid" class="alert alert-danger">
+          <p> School Name is required</p>
+        </div>
+    </div>
+<div>
+
+    <button (click)="navigate()" [disabled]="!form.valid" font="Proxima Nova" style="color: aliceblue;" class="proceed">Proceed</button>
+
+
+
+</div>
+</div>
+
+<div class="midWhite">
+  <div class="midWhiteTop">
+    <div >
+      <img [src]="ellips">
+
+    <h5>Adaptive Learning</h5>
+    <h6>Learning is made fun and easy for kids through STEPapp’s engaging gamified platform.</h6>
+    </div>
+    <div >
+    <img [src]="ellips">
+
+    <h5>Mapped to school Curriculum</h5>
+    <h6>STEPapp Concepts is mapped to the curriculum of school boards (CBSE, ICSE). </h6>
+
+    </div >
+    <div >
+      <img [src]="ellips">
+
+    <h5>Rewards & Scholarships</h5>
+    <h6>STEPapp Scholarships will award 10,000 students of EACH grade (5th - 11th)</h6>
+    </div>
+    
+  </div>
+  
+    <div class="midWhitemid">
+     <div class="midWhitemidone">
+       <p>                          </p>
+     </div>
+     <div class="midWhitemidtwo">
+       <p>                          </p>
+     </div>
+
+
+    </div>
+  
+
+    <div class="midWhitebottom">
+      <div class="bigtext">
+    What Students Say
+    </div>
+    <div class="smalltext" >
+    Semaj Africa is an online education platform that delivers video courses, programs and resources for Individual, Advertising & Media Specialist,.
+    </div>
+    </div>
+
+  
+
+    <div class="cards">
+    <div class="card1">
+      <img [src]="bigcomma">
+
+    <p> Without a doubt the biggest impact of using ‘Evidence for Learning’ is on staff time and organisation of information. The product’s price in comparison to hours saved represents great value</p>
+    
+    <h6>
+      <img [src]="bellips">
+    </h6>
+    
+    </div>
+    <div class="card2">
+      <img [src]="bigcomma">
+
+    <p> Without a doubt the biggest impact of using ‘Evidence for Learning’ is on staff time and organisation of information. The product’s price in comparison to hours saved represents great value</p>
+    
+    <h6>
+      <img [src]="bellips">
+
+    </h6>
+    
+    
+    </div>
+    <div class="card3">
+      <img [src]="bigcomma">
+
+      
+    <p> Without a doubt the biggest impact of using ‘Evidence for Learning’ is on staff time and organisation of information. The product’s price in comparison to hours saved represents great value</p>
+    
+    <h6>
+      <img [src]="bellips">
+
+    </h6>
+    
+    
+    </div>
+    <div class="card4">
+      <img [src]="bigcomma">
+
+    <p> Without a doubt the biggest impact of using ‘Evidence for Learning’ is on staff time and organisation of information. The product’s price in comparison to hours saved represents great value</p>
+    
+    <h6>
+      <img [src]="bellips">
+
+    </h6>
+    
+    
+    </div>
+
+  </div>
+
+
+
+
+  <div class="bottomOrange">
+    
+  <div class="schoolbottomText">
+    <img [src]="lastellip">
+  <h4>5,679</h4>
+  <h6>Registered Students</h6>
+  </div>
+
+
+  <div class="schoolbottomText">
+    <img [src]="lastellip">
+
+  <h4>2,679</h4>
+  <h6>Student has been helped to achieve their dreams</h6>
+  
+  </div>
+
+
+  <div class="schoolbottomText">
+    <img [src]="lastellip">
+
+  <h4>10,000</h4>
+  <h6>More than 10,000 people visits our site monthly</h6>
+          
+  </div>
+  
+  <div class="schoolbottomText">
+    <img [src]="lastellip">
+
+  <h4>#10</h4>
+  <h6>Ranked among the top 10 growing online learning startups in West Africa</h6>
+  
+  </div>
+
+  </div>
+
+
+  <div class="Bottom">
+         <p style="color: aliceblue" class="BottomText">All Right Reserved | STEPAPP 2019</p>
+         </div>
+
+</div>
+
+
+

@@ -1,0 +1,161 @@
+.background1{
+    background: hsl(219, 73%, 24%);
+     height: 820px;
+
+}
+.UpperHalfContainer{
+    /* height: 500px; */
+    background-color: #153168;
+    /* background-color: #fff; */
+    align-items: center;
+    table-layout: fixed;
+}
+.container{
+    text-align: center;
+    height: 100px;
+    display: block;
+    top:20%;
+    left:40%
+}
+.rect{
+position: absolute;
+width: 500px;
+height: 300px;
+align-items: center;
+background:white;
+margin-left: 400px;
+margin-right: 50px;
+border-radius: 10px;
+margin-top: 30px;
+padding-top: 4%;
+
+
+
+ }   
+  .mid {
+    position: absolute;
+    width: 119px;
+    height: 60px;
+    top: 10%;
+    left: 40%;
+    table-layout: fixed;
+  
+    mix-blend-mode: normal;
+
+    border-radius: 31px;
+  font-style: normal;
+    font-size: 15px;
+    line-height: 159.7%;
+    color: #000000;  
+    margin-bottom: 15% ;
+  }
+  
+
+.cursor{
+/* width: 604px; */
+height: 276px;
+left: 30%;
+background: #153168;
+/* 3 */
+
+box-shadow: 0px 12px 35px  #FF8A48(233, 231, 226, 0.2);
+border-radius: 10px;
+align-items: center;
+text-align: center;
+
+}
+
+.LowerHalfContainer{
+   padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #153168;
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.SubjectScience{
+position: relative;
+    width: 430px;
+height: 270px;
+
+background: #FF8A48;
+opacity: 0.95;
+box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+border-radius: 10px;
+
+padding-left: 4%;
+padding-top: 4%;
+}
+
+.SubjectMath{
+    position: relative;
+    width: 430px;
+height: 270px;
+
+background: #1BB8AE;
+opacity: 0.95;
+/* 3 */
+
+box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+border-radius: 10px;
+
+
+padding-left: 4%;
+padding-top: 4%
+}
+
+.Learn{
+    width: 174px;
+    
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    
+    text-align: left;
+    
+    color: #FFFFFF;
+}
+
+.SciencechapterName{
+/* width: 122px; */
+
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+/* line-height: 159.7%; */
+/* or 24px */
+
+text-align: left;
+
+
+color: #FFFFFF;
+
+}
+
+.FreeDemo{
+    position:absolute;
+// width: 117px;
+height: 33px;
+
+top:80%;
+left:70%;
+background:white;
+mix-blend-mode: lighten;
+box-shadow: 0px 4px 4px  #153168(0, 0, 0, 0.25);
+border-radius: 31px;
+}
+
+.Bottom{
+    background-color: #0D2249;
+}
+.BottomText{
+    line-height: 34.62px;
+    margin-left: 800px;
+}
+.text{
+    margin-top: 130px;
+} 
+

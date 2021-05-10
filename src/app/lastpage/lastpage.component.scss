@@ -1,0 +1,86 @@
+.scienceBackground {
+    /* height: 1007px; */
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* padding: 5%; */
+    background: #153168;
+  }
+  
+  .science_Light {
+    position: relative;
+    width: 500px;
+    height: 340px;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    background: #ffffff;
+    opacity: 0.95;
+    /* 3 */
+    margin: 3%;
+    box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .scienceFreeDemo {
+    position: absolute;
+    width: 119px;
+    height: 49px;
+    top: 5%;
+    left: 65%;
+  
+    mix-blend-mode: normal;
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+    border-radius: 31px;
+  
+    /* font-family: Proxima Nova; */
+    font-style: italic;
+    /* font-weight: normal; */
+    font-size: 15px;
+    line-height: 159.7%;
+    /* identical to box height, or 24px */
+  
+    color: #000000;  
+  }
+  
+  .SciencePlayButton {
+    position: absolute;
+    width: 119px;
+    height: 49px;
+    left: 2%;
+    top: 75%;
+  
+    background: #ff8f50;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+  }
+  
+  
+  .column {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .ScienceUnlockButton {
+    position: absolute;
+    width: 119px;
+    height: 49px;
+    left: 2%;
+    top: 75%;
+  
+    background: #ff8f50;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+  }
+  .Bottom{
+    background-color: #0D2249;
+}
+.BottomText{
+    line-height: 34.62px;
+    margin-left: 800px;
+  
+
+}
