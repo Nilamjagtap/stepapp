@@ -1,48 +1,49 @@
-<!-- <app-navbar></app-navbar> -->
-
- <div class="loginBackground">
+<div class="loginBackground">
     <div class="eclipscontainer">
        <div class="circle">
       <!-- <img [src]="ellips" alt="centered image"/> -->
       <p class="text-block1">Select</p>
       <p class="text-block2">Grade</p>
 
-   <div>
-    <button  (click)="stateValue($event)" class="Small5">5th</button>
-   <div >
-    <button  (click)="stateValue($event)" class="Small6">6th</button>
-   </div>
+      <div>
+  <button id="1" class="Small6"  [ngClass]="{'btnActive': selectedId===1}"(click)="btnActivate(1)">6th</button>
+    </div>
 
-   <div>
-      <button  (click)="tag()" class="Small7">7th</button>
-  
-     </div>
-  
-  
-   <div>
-    <button  (click)="tag()" class="Small8">8th</button>
-   </div>
+       <div >
+        <button id="2" class="Small5" [ngClass]="{'btnActive': selectedId===2}"(click)="btnActivateOne(2)">5th</button>
 
-   <div>
-    <button  (click)="tag()" class="Small9">9th</button>
-   </div>
+       </div>
 
-   <div>
-    <button (click)="tag()" class="Small10">10th</button>
-   </div>
+       <div>
+        <button id="3" class="Small7" [ngClass]="{'btnActive': selectedId===3}"(click)="btnActivateTwo(3)">7th</button>
 
-   <div>
-    <button   (click)="tag()" class="Small11">11th</button>
+        </div>
 
-   </div>
+        <div>
+        <button id="4" class="Small8" [ngClass]="{'btnActive': selectedId===4}"(click)="btnActivateThree(4)">8th</button>
+        </div>
+
+        <div>
+        <button id="5" class="Small9"  [ngClass]="{'btnActive': selectedId===5}" (click)="btnActivateFour(5)">9th</button>
+        </div>
+
+         <div>
+          <button id="6" class="Small10" [ngClass]="{'btnActive': selectedId===6}"(click)="btnActivateFive(6)">10th</button>
+
+          </div>
+
+           <div>
+            <button id="7" class="Small11" [ngClass]="{'btnActive': selectedId===7}"(click)="btnActivateSix(7)">11th</button>
+     
+           </div>
 </div>
 </div>
  
-</div>
-<div  class="proceed-wrapper" >
-   <button  (click)="btn()" style="color: aliceblue;"class="gradeButtonProceed">Proceed</button>
+<!-- </div> -->
+        <div  class="proceed-wrapper" >
+          <button  (click)="btn()" style="color: aliceblue;"class="gradeButtonProceed">Proceed</button>
     
- </div>
+          </div>
  
  </div> 
  <div class="bottom">

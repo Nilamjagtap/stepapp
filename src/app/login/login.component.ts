@@ -19,12 +19,15 @@ export class LoginComponent  {
 
   loginForm = new FormGroup({});
   isSubmitted  =  false;
+
+  unamepattern="nilamj@winjit.com";
+  pwdpassword="Winjit@123";
   
   ngOnInit(): void {
   
     this.loginForm  =  this.formBuilder.group({
-      username: ['', Validators.required],
-      password: ['', Validators.required]
+      username: ['',[ Validators.required,Validators.pattern(this.unamepattern)]],
+      password: ['',[ Validators.required,Validators.pattern(this.pwdpassword)]]
   });
   
   }
